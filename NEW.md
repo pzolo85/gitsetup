@@ -19,7 +19,7 @@ git remote add origin "git@github.com:$(git config --global --get user.name)/${R
 ```
 Send tour first commit (readme.md)
 ```
-echo "#${REPO}#" > README.md
+echo "# ${REPO} #" > README.md
 git add README.md
 git commit -m "First commit"
 git push --set-upstream origin main
