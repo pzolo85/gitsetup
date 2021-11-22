@@ -7,6 +7,3 @@ NAME=yourname
 MAIL=you@domain.com
 ./gitSetup.sh
 ```
-
-## Create a new repo ##
-
