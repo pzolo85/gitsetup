@@ -3,6 +3,8 @@
 git config --global user.name $NAME
 git config --global user.email $MAIL
 git config --global core.editor vim
+$ git config --global merge.tool vimdiff
+$ git config --global diff.tool vimdiff
 # Default branch
 git config --global init.defaultBranch main
 
